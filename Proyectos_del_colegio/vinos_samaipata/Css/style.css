@@ -1,0 +1,127 @@
+/* Fuente elegante */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Open+Sans:wght@300;400&display=swap');
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Colores base */
+:root {
+  --vino: #5e2129;
+  --vino-oscuro: #3d141a;
+  --dorado: #d4af37;
+  --blanco: #f8f5f0;
+  --gris-suave: #ddd;
+}
+
+/* Estilo general */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: var(--blanco);
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+  background: linear-gradient(rgba(94, 33, 41, 0.8), rgba(61, 20, 26, 0.9)),
+              url('https://images.unsplash.com/photo-1510626176961-4b37d6afc04e?auto=format&fit=crop&w=1350&q=80') center/cover;
+  color: var(--blanco);
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  letter-spacing: 2px;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: var(--dorado);
+}
+
+/* Secciones */
+section {
+  max-width: 1000px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: var(--blanco);
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+section h2 {
+  font-family: 'Playfair Display', serif;
+  color: var(--vino);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  border-left: 5px solid var(--dorado);
+  padding-left: 0.8rem;
+}
+
+section p, section li {
+  font-size: 1rem;
+  color: #444;
+}
+
+section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+section ul li {
+  padding: 0.5rem 0;
+  position: relative;
+}
+
+section ul li::before {
+  content: '🍷';
+  position: absolute;
+  left: -1.5rem;
+}
+
+/* Galería */
+#galeria div {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+#galeria img {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+#galeria img:hover {
+  transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+  background-color: var(--vino-oscuro);
+  color: var(--blanco);
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 0.9rem;
+  border-top: 3px solid var(--dorado);
+}
+
+/* Mapa */
+#mapa iframe, #mapa img {
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid var(--gris-suave);
+}
