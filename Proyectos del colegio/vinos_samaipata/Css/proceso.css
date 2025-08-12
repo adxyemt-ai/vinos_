@@ -1,0 +1,122 @@
+/* --------------------
+   Estilos base
+-------------------- */
+body {
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 1.5px;
+    background-color: #faf7f2; /* Fondo suave */
+    color: #2e2e2e;
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+}
+
+header {
+    text-align: center;
+    padding: 1rem 0.5rem;
+}
+
+#linea_1 {
+    border-bottom: 2px solid #5e2129;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#linea {
+    border-bottom: 2px solid #5e2129;
+    width: auto;
+}
+
+/* --------------------
+   Contenedor principal
+-------------------- */
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+}
+
+/* --------------------
+   Encabezado
+-------------------- */
+header {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+#linea_1 {
+    border-bottom: 2px solid #5e2129;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#linea {
+    border-bottom: 2px solid #5e2129;
+    width: auto;
+}
+
+/* --------------------
+   Títulos
+-------------------- */
+h2 {
+    border-left: 4px solid #d4af37;
+    padding: 8px 12px;
+    font-weight: 400; /* Valor corregido */
+    background-color: rgba(212, 175, 55, 0.1); /* Fondo dorado sutil */
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    color: #5e2129;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* --------------------
+   Listas
+-------------------- */
+ul, ol {
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+/* --------------------
+   Párrafos
+-------------------- */
+p {
+    margin-bottom: 1rem;
+}
+
+/* --------------------
+   Pie de página
+-------------------- */
+footer {
+    background-color: #5e2129;
+    padding: 15px;
+    color: #f8f5f0;
+    font-weight: 400; /* Valor corregido */
+    text-align: center;
+}
+
+/* --------------------
+   Mejoras visuales
+-------------------- */
+section {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+    main {
+        padding: 1rem;
+    }
+}

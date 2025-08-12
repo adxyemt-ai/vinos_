@@ -1,0 +1,73 @@
+/* --------------------
+   Estilos base
+-------------------- */
+body {
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 1.5px;
+    background-color: #faf7f2; /* Fondo suave */
+    color: #2e2e2e;
+    margin: 0;
+    padding: 0;
+}
+
+/* --------------------
+   Encabezado
+-------------------- */
+header {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+#linea_1 {
+    border-bottom: 2px solid #5e2129;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#linea {
+    border-bottom: 2px solid #5e2129;
+    width: auto;
+}
+
+/* --------------------
+   Títulos
+-------------------- */
+h2 {
+    border-left: 4px solid #d4af37;
+    padding: 8px 12px;
+    font-weight: 400; /* Corrige valor inválido */
+    background-color: rgba(212, 175, 55, 0.1); /* Sutil fondo dorado */
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* --------------------
+   Pie de página
+-------------------- */
+footer {
+    background-color: #5e2129;
+    padding: 15px;
+    color: #f8f5f0;
+    font-weight: 400; /* Corrige valor inválido */
+    text-align: center;
+}
+
+/* --------------------
+   Mejoras generales
+-------------------- */
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+}
+
+p {
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+ul {
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
